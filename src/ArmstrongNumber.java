@@ -17,8 +17,14 @@ public class ArmstrongNumber {
 			num=num/10;
 			c=c+(intArmstrongNo*intArmstrongNo*intArmstrongNo);
 		}
-		if(intTemp==c)
+		if(intTemp==c){
 			System.out.println("Armstrong number");
+		System.out.println("Armstrong number1");
+
+		System.out.println("Armstrong number2");
+
+		System.out.println("Armstrong number3");
+	}
 
 		else
 			System.out.println("Not Armstrong number");
