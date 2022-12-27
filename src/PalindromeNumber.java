@@ -15,8 +15,12 @@ public class PalindromeNumber {
 			intSum=intSum*10+intNumber%10;  
 			intNumber=intNumber/10;    
 		}    
-		if(intTemp==intSum)    
-			System.out.println("Entered Number is palindrome number ");    
+		if(intTemp==intSum)    {
+			System.out.println("Entered Number is palindrome number "); 
+		System.out.println("Entered Number is palindrome number 1");    
+
+		System.out.println("Entered Number is palindrome number 2");    
+		}
 		else    
 			System.out.println("Entered Number is not palindrome number");    
 	}  
